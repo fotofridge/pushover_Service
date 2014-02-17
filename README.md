@@ -1,4 +1,4 @@
 pusover_Service
 ===============
 
-Notification Service for pushover.com
+Notification Service for pushover.net
