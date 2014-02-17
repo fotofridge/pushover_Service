@@ -1,36 +1,22 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 
-// Allgemeine Informationen über eine Assembly werden über die folgenden 
-// Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
-// die mit einer Assembly verknüpft sind.
+// Information about this assembly is defined by the following attributes.
+// Change them to the values specific to your project.
 [assembly: AssemblyTitle("pushover_Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("pushover_Service")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("Dominik Schneider")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+// The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
+// The form "{Major}.{Minor}.*" will automatically update the build and revision,
+// and "{Major}.{Minor}.{Build}.*" will update just the revision.
+[assembly: AssemblyVersion("1.0.*")]
+// The following attributes are used to specify the signing key for the assembly,
+// if desired. See the Mono documentation for more information about signing.
+//[assembly: AssemblyDelaySign(false)]
+//[assembly: AssemblyKeyFile("")]
 
-// Durch Festlegen von ComVisible auf "false" werden die Typen in dieser Assembly unsichtbar 
-// für COM-Komponenten.  Wenn Sie auf einen Typ in dieser Assembly von 
-// COM zugreifen müssen, legen Sie das ComVisible-Attribut für diesen Typ auf "true" fest.
-[assembly: ComVisible(false)]
-
-// Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("6598af9e-a4a2-4cb9-aed2-8a5de338d191")]
-
-// Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
-//
-//      Hauptversion
-//      Nebenversion 
-//      Buildnummer
-//      Revision
-//
-// Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
-// übernehmen, indem Sie "*" eingeben:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
