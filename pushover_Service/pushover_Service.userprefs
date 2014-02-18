@@ -1,17 +1,16 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Setting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sender.cs">
     <Files>
       <File FileName="Sender.cs" Line="1" Column="1" />
       <File FileName="../pushover_ServiceTest/Program.cs" Line="1" Column="1" />
-      <File FileName="Setting.cs" Line="32" Column="1" />
+      <File FileName="Setting.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="pushover_Service" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="Sender.cs" selected="True" />
           </Node>
           <Node name="pushover_ServiceTest" expanded="True">
             <Node name="References" expanded="True" />
