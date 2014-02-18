@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,14 +31,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="MonoDevelop.Core, Version=2.6.0.0, Culture=neutral">
-      <Private>False</Private>
-      <Package>monodevelop</Package>
-    </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AskUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AskUserForm.Designer.cs">
+      <DependentUpon>AskUserForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sender.cs" />
     <Compile Include="Setting.cs" />
@@ -46,5 +50,10 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="pushover_Service.userprefs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AskUserForm.resx">
+      <DependentUpon>AskUserForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

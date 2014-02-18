@@ -1,5 +1,5 @@
 using System;
-using MonoDevelop.Core;
+using System.ComponentModel;
 using System.IO;
 
 ////TODO: Notifying Object
@@ -52,7 +52,7 @@ namespace FotoFridge.pushover_Service
         /// <summary>
         /// Provides User Settings Data
         /// </summary>
-        public class SettingData
+        public class SettingData : INotifyPropertyChanged
         {
             public SettingData(){}
 
@@ -100,6 +100,12 @@ namespace FotoFridge.pushover_Service
                 }
             }
 
+
+            #region INotifyPropertyChanged Member
+
+            public event PropertyChangedEventHandler PropertyChanged;
+
+            #endregion
         }
 
 
